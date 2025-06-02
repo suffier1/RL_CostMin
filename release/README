@@ -1,0 +1,39 @@
+File contains:
+
+realse/
+|-- lib/                   // the library file of all the cells
+|   |-- lib1.json
+|
+|-- cost_estimators/       // currently we have 8 different cost-estimator binaries
+|   |-- cost_estimator_1
+|   |-- cost_estimator_2
+|   |-- cost_estimator_3
+|   |-- cost_estimator_4
+|   |-- cost_estimator_5
+|   |-- cost_estimator_6
+|   |-- cost_estimator_7
+|   |-- cost_estimator_8
+|
+|-- netlists/              // 6 different verilog netlists to be optimized
+|   |-- design1.v
+|   |-- design2.v
+|   |-- design3.v
+|   |-- design4.v
+|   |-- design5.v
+|   |-- design6.v
+|
+|-- examples/              // 4 toy cases that demonstrate the output netlist format
+    |-- toy_case1.v
+    |-- toy_case2.v
+    |-- toy_case3.v
+    |-- toy_case4.v
+
+
+example usage:
+	./cost_estimators/cost_estimator_2 -library lib/lib1.json -netlist examples/toy_case1.v -output cf2_ex1.out
+	./cost_estimators/cost_estimator_3 -library lib/lib1.json -netlist examples/toy_case2.v -output cf3_ex2.out
+
+NOTE:
+  There are 3 top module names for each design which different constraints/spec is encoded.
+  Contestants can perform optimization on different setup.
+
