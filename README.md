@@ -1,7 +1,7 @@
 # RL_CostMin
-This work is for 대한전자공학회 2025년도 하계종합학술대회 인공지능 학부생 논문 경진대회.
-link: https://bpai2025.github.io/
-Paper Title: Gate-Level Cell Selection via Reinforcement Learning for Netlist Cost Minimization
+This work is for 대한전자공학회 2025년도 하계종합학술대회 인공지능 학부생 논문 경진대회.<br/>
+link: https://bpai2025.github.io/ <br/>
+Paper Title: Gate-Level Cell Selection via Reinforcement Learning for Netlist Cost Minimization <br/>
 
 ## netlist_processor.py
 For pharsing verilog, evaluate cost by cost_estimator.. etc (cost_estimators are in release folder)
