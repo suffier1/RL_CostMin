@@ -21,10 +21,13 @@ Store netlist_processor.py, main.py, release in same directory
   --seg_size 100 \
   --first_ep 3500 \
   --other_ep 10 \
-  --workers 16
-d : design number (inside release folder)
-c : cost estimator number (also inside relase folder)
-seg_size: number of gates inside one size. If #of all gates are 1000 and seg_size = 100, # of segments = 10
-first_ep: number of episodes for first segment
-other_ep: number of episodes for every segment except first
-workers: number of workers in A3C Algorithm
+  --workers 16  <br/>
+  <br/>
+d : design number (inside release folder) <br/>
+c : cost estimator number (also inside relase folder) <br/>
+seg_size: number of gates inside one size. If #of all gates are 1000 and seg_size = 100, # of segments = 10 <br/>
+first_ep: number of episodes for first segment <br/>
+other_ep: number of episodes for every segment except first <br/>
+workers: number of workers in A3C Algorithm <br/>
+
+Note: The training was conducted in a Colab Pro+ environment.
